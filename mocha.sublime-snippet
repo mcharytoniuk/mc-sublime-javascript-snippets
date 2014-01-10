@@ -3,7 +3,7 @@
 /* global describe: false, it: false */
 
 var assert = require("assert"),
-    ${2:Class} = require(global.MODULE_ROOT + "/libraries/scripts/${1:Namespace}/${2:Class}");
+    ${2:Class} = require(global.MODULE_ROOT + "/node_libs/${1:Namespace}/${2:Class}");
 
 describe("${1:Namespace}/${2:Class}", function () {
     ${3:// body ...}
