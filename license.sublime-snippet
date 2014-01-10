@@ -1,13 +1,12 @@
 <snippet>
     <content><![CDATA[
-"use strict";
-
-var ${1:Class}; // constructor, function
-
-module.exports = ${1:Class};
+/**
+ * @license Copyright (c) ${1:2014} ${2:Pouclaige}
+ * For licensing, see LICENSE
+ */
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>commonjs</tabTrigger>
+    <tabTrigger>license</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
