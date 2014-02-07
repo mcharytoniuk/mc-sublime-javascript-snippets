@@ -4,9 +4,9 @@
  * @auguments ${3:package}/${2:ParentClass}
  * @constructor
  */
-${1:Class} = function () {
+function ${1:Class}() {
     ${2:ParentClass}.call(this);
-};
+}
 ${1:Class}.prototype = Object.create(${2:ParentClass}.prototype);
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
