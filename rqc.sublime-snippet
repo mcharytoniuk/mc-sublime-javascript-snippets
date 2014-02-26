@@ -1,12 +1,9 @@
 <snippet>
     <content><![CDATA[
-/**
- * @license Copyright (c) ${1:2014}, ${2:Pouclaige}
- * For licensing, see LICENSE
- */
+${1:Class} = require("${2:package}").${1:Class}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>license</tabTrigger>
+    <tabTrigger>rqc</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
