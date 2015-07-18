@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:Class} = require(path.join(__dirname, "/${1:Class}"))
+${1:Class} = require(path.resolve(__dirname, "${1:Class}"))
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>rqm</tabTrigger>
