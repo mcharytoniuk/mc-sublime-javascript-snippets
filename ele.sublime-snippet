@@ -1,12 +1,9 @@
 <snippet>
     <content><![CDATA[
-/**
- * @license Copyright (c) ${1:2015}, ${2:mcharytoniuk}
- * For licensing, see LICENSE
- */
+<${1:ElementName}${2}>${3}</${1:ElementName}>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>license</tabTrigger>
+    <tabTrigger>ele</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
