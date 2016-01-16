@@ -1,13 +1,9 @@
 <snippet>
     <content><![CDATA[
-/**
- * @auguments ${3:package}/${2:ParentClass}
- * @constructor
- */
-function ${1:Class}() {
-    ${2:ParentClass}.call(this);
+class ${1:Class}() extends ${2:ParentClass} {
+  constructor() {
+  }
 }
-${1:Class}.prototype = Object.create(${2:ParentClass}.prototype);
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>class</tabTrigger>

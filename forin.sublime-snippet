@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 for (${1:property} in ${2:object}) {
-    if (${2:object}.hasOwnProperty(${1:property})) {
-        ${3:// body...}
-    }
+  if (${2:object}.hasOwnProperty(${1:property})) {
+    ${3:// body...}
+  }
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

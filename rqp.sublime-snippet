@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:package} = require("${1:package}")
+${1:package} = require('${1:package}')
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>rqp</tabTrigger>

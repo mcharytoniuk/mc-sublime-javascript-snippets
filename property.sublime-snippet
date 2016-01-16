@@ -1,12 +1,9 @@
 <snippet>
     <content><![CDATA[
-Object.defineProperty(${1:this}, "${2:propertyName}", {
-    /**
-     * @return {${4:void}}
-     */
-    get: function () {
-        ${3:// body ...}
-    }
+Object.defineProperty(${1:this}, '${2:propertyName}', {
+  get: function () {
+    ${3:// body ...}
+  }
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
